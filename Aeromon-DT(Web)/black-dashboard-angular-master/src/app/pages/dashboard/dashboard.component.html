@@ -1,0 +1,66 @@
+<div class=" content">
+
+    <div class=" row">
+        <div class=" col-lg-4"   *ngFor="let index of items1; let i = index;">
+            <div class="card-chart"style= "height: 200px;">
+                <div class=" card-header">
+                    <h5 class="card-category">Flight ID {{i+1}}</h5>
+                    <h4 class="card-title">Total Flight Time {{flightime[i]}} min</h4>
+                    <p class="card-body">
+                        Maximum Altitude {{maxAlt[i]}}m  <br>
+                        Temperature {{temp[i]}} °C
+                    </p>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- <div class=" col-lg-4">
+            <div class=" card card-chart" style="height: 450px;">
+                <div class=" card-header">
+                    <h5 class=" card-category">Flight No : 21:36:46.06</h5>
+                    <h3 class=" card-title">
+                        <i class=" tim-icons icon-watch-time text-danger-states"> </i> 250 Seconds
+                    </h3>
+                </div>
+                <div class=" card-body">
+                    <div class=" chart-area"><canvas id="chartLineGreen"> </canvas></div>
+                </div>
+                <div class="card-footer">
+                    <i class=" tim-icons icon-watch-time text-success"> </i> TakeOff Coords:<br> (LAT/LONG) 33.62822093895809, 73.09841035822207
+                    <br>
+                    <i class=" tim-icons icon-double-right text-info"> </i> Landing Coords:<br> (LAT/LONG) 000.0000, 000.0000
+
+                    <span></span>
+                </div>
+            </div>
+        </div> -->
+
+
+
+
+
+
+
+
+
+    <!-- <div class="content">
+    <div class="row">
+      <div class="col-lg-4" >
+        <div class="card">
+          <div class="card-header">
+            <h5 class="card-category">Flight ID {{i+1}}</h5>
+            <h4 class="card-title">Total Flight Time {{flightime[i]}} min</h4>
+            <p class="card-body">
+              Maximum Altitude {{maxAlt[i]}}m &nbsp;
+              Temperature {{temp[i]}} °C
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
